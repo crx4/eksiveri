@@ -1,0 +1,122 @@
+<!--
+Copyright (C) 2015 Mevlüt Canvar <info@mcnvr.com>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="Mevlüt Canvar, info@mcnvr.com">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Ekşi Veri</title>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/pastel-stream.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+            <a class="navbar-brand" href="#"><strong><span class="glyphicon glyphicon-tint" aria-hidden="true"></span> Ekşi Veri</strong></a>
+        </div>
+		<div id="navbar" class="navbar-collapse collapse navbar-responsive-collapse">
+			<ul class="nav navbar-nav">
+                            <li class="active"><a href="index.php"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Anasayfa</a></li>
+                            <li><a href="training-set.php"><span class="glyphicon glyphicon-tower" aria-hidden="true"></span> Eğitim Kümesi</a></li>
+			</ul>
+			<form class="navbar-form navbar-left">
+				<input type="text" class="form-control col-lg-8" size="55" placeholder="Search">
+			</form>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#">Link</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Action</a></li>
+						<li><a href="#">Another action</a></li>
+						<li><a href="#">Something else here</a></li>
+						<li class="divider"></li>
+						<li><a href="training-set-2.php">Separated link</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div><!-- /.nav-collapse -->
+      </div><!-- /.container -->
+    </nav><!-- /.navbar -->
+
+    <div class="container">
+
+      <div class="row row-offcanvas row-offcanvas-left">
+
+        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
+          <div class="list-group">
+            <a href="index.php" class="list-group-item active">Anasayfa</a>
+            <a href="training-set.php" class="list-group-item">Eğitim Kümesi</a>
+            <a href="frequency-table.php" class="list-group-item">Sıklık Tablosu</a>
+          </div>
+        </div><!--/.sidebar-offcanvas-->
+
+        <div class="col-xs-12 col-sm-9">
+          <p class="pull-left visible-xs">
+            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+          </p>
+          <div class="jumbotron">
+            <h1>Ekşi Veri</h1>
+            <p>Veri Madenciliği Projesi</p>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+                <div class="list-group">
+                    <img id='loading' src='images/loading.gif'>
+                    <div id="ajaxscroll"></div>
+                </div><!--/list-group-->
+            </div><!--/col-sm-12-->
+          </div><!--/row-->
+        </div><!--/.col-xs-12.col-sm-9-->
+      </div><!--/row-->
+    </div><!--/.container-->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/pastel-stream.js"></script>
+    <!-- Infinite Scroll Pagination -->
+    <script type="text/javascript" src="js/scroll-script.js"></script>
+  </body>
+</html>
