@@ -1,0 +1,49 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.SimpleCart -S 1 -M 2.0 -N 5 -C 1.0
+Relation:     words_p_n-weka.filters.unsupervised.attribute.Remove-R1-2
+Instances:    6323
+Attributes:   261
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+CART Decision Tree
+
+word_5463 < 0.5
+|  word_362 < 0.5: p(3364.0/2680.0)
+|  word_362 >= 0.5: n(87.0/24.0)
+word_5463 >= 0.5: n(130.0/38.0)
+
+Number of Leaf Nodes: 3
+
+Size of the Tree: 5
+
+Time taken to build model: 52.66 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        3605               57.0141 %
+Incorrectly Classified Instances      2718               42.9859 %
+Kappa statistic                          0.0784
+Mean absolute error                      0.485 
+Root mean squared error                  0.4942
+Relative absolute error                 97.6773 %
+Root relative squared error             99.1933 %
+Total Number of Instances             6323     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.138     0.065      0.644     0.138     0.228      0.541    n
+                 0.935     0.862      0.562     0.935     0.702      0.541    p
+Weighted Avg.    0.57      0.497      0.599     0.57      0.485      0.541
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  401 2496 |    a = n
+  222 3204 |    b = p
+

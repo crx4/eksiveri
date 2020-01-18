@@ -1,0 +1,101 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.SimpleCart -S 1 -M 2.0 -N 5 -C 1.0
+Relation:     words_h_u-weka.filters.unsupervised.attribute.Remove-R1-2
+Instances:    3426
+Attributes:   181
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+CART Decision Tree
+
+word_2841 < 0.5
+|  word_3242 < 0.5
+|  |  word_1730 < 0.5
+|  |  |  word_2336 < 0.5
+|  |  |  |  word_2978 < 0.5
+|  |  |  |  |  word_137 < 0.5
+|  |  |  |  |  |  word_1720 < 0.5
+|  |  |  |  |  |  |  word_3176 < 0.5
+|  |  |  |  |  |  |  |  word_176 < 0.5
+|  |  |  |  |  |  |  |  |  word_623 < 0.5
+|  |  |  |  |  |  |  |  |  |  word_2922 < 0.5
+|  |  |  |  |  |  |  |  |  |  |  word_1713 < 0.5
+|  |  |  |  |  |  |  |  |  |  |  |  word_1850 < 0.5
+|  |  |  |  |  |  |  |  |  |  |  |  |  word_536 < 0.5
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  word_1437 < 0.5
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  word_646 < 0.5
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  word_1382 < 0.5
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  word_1993 < 0.5
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  word_508 < 0.5
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  word_35 < 0.5
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  word_818 < 0.5
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  word_3020 < 0.5
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  word_403 < 0.5
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  word_3974 < 0.5: h(976.0/715.0)
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  word_3974 >= 0.5: u(17.0/8.0)
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  word_403 >= 0.5: u(14.0/4.0)
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  word_3020 >= 0.5: u(29.0/17.0)
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  word_818 >= 0.5: u(17.0/5.0)
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  word_35 >= 0.5: u(38.0/23.0)
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  word_508 >= 0.5: u(32.0/17.0)
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  word_1993 >= 0.5: u(25.0/9.0)
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  word_1382 >= 0.5
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  word_727 < 0.5
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  word_438 < 0.5: h(130.0/57.0)
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  word_438 >= 0.5: u(5.0/0.0)
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  word_727 >= 0.5: u(5.0/0.0)
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  word_646 >= 0.5: u(58.0/38.0)
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  word_1437 >= 0.5: h(45.0/16.0)
+|  |  |  |  |  |  |  |  |  |  |  |  |  word_536 >= 0.5: u(51.0/29.0)
+|  |  |  |  |  |  |  |  |  |  |  |  word_1850 >= 0.5: h(45.0/14.0)
+|  |  |  |  |  |  |  |  |  |  |  word_1713 >= 0.5: u(13.0/2.0)
+|  |  |  |  |  |  |  |  |  |  word_2922 >= 0.5: u(37.0/16.0)
+|  |  |  |  |  |  |  |  |  word_623 >= 0.5: u(21.0/3.0)
+|  |  |  |  |  |  |  |  word_176 >= 0.5
+|  |  |  |  |  |  |  |  |  word_4493 < 0.5: h(129.0/57.0)
+|  |  |  |  |  |  |  |  |  word_4493 >= 0.5: u(5.0/0.0)
+|  |  |  |  |  |  |  word_3176 >= 0.5: u(23.0/6.0)
+|  |  |  |  |  |  word_1720 >= 0.5: u(75.0/43.0)
+|  |  |  |  |  word_137 >= 0.5: u(42.0/12.0)
+|  |  |  |  word_2978 >= 0.5: u(64.0/27.0)
+|  |  |  word_2336 >= 0.5
+|  |  |  |  word_1663 < 0.5: u(69.0/19.0)
+|  |  |  |  word_1663 >= 0.5: h(8.0/2.0)
+|  |  word_1730 >= 0.5: u(66.0/22.0)
+|  word_3242 >= 0.5: h(80.0/17.0)
+word_2841 >= 0.5: u(98.0/31.0)
+
+Number of Leaf Nodes: 29
+
+Size of the Tree: 57
+
+Time taken to build model: 9.2 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        2041               59.5738 %
+Incorrectly Classified Instances      1385               40.4262 %
+Kappa statistic                          0.187 
+Mean absolute error                      0.4623
+Root mean squared error                  0.4954
+Relative absolute error                 92.4929 %
+Root relative squared error             99.0959 %
+Total Number of Instances             3426     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.743     0.557      0.58      0.743     0.652      0.611    h
+                 0.443     0.257      0.624     0.443     0.518      0.611    u
+Weighted Avg.    0.596     0.41       0.602     0.596     0.586      0.611
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1296  448 |    a = h
+  937  745 |    b = u
+

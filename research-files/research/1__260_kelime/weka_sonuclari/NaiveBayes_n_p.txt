@@ -1,0 +1,1606 @@
+=== Run information ===
+
+Scheme:weka.classifiers.bayes.NaiveBayes 
+Relation:     words_p_n-weka.filters.unsupervised.attribute.Remove-R1-2
+Instances:    6323
+Attributes:   261
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                Class
+Attribute           n      p
+               (0.46) (0.54)
+=============================
+word_22032
+  mean          0.0066 0.0073
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_15189
+  mean          0.0097  0.005
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_12681
+  mean          0.0138 0.0117
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_11011
+  mean          0.0076 0.0079
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_10967
+  mean          0.0083 0.0152
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_10403
+  mean           0.011 0.0096
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_9969
+  mean          0.0097 0.0061
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_9921
+  mean          0.0176 0.0178
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_9737
+  mean          0.0069 0.0067
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_8986
+  mean          0.0107 0.0131
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_7502
+  mean          0.0066 0.0061
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_7467
+  mean          0.0135 0.0163
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_7049
+  mean          0.0183 0.0134
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_6801
+  mean          0.0152 0.0193
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_6386
+  mean          0.0224 0.0228
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_6201
+  mean          0.0117 0.0099
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_5905
+  mean          0.0059 0.0067
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_5765
+  mean          0.0193 0.0178
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_5684
+  mean          0.0197 0.0099
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_5617
+  mean          0.0152  0.014
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_5587
+  mean          0.0255 0.0236
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_5463
+  mean          0.0449 0.0111
+  std. dev.      0.207 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_5404
+  mean          0.0086 0.0067
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_5065
+  mean          0.0128 0.0076
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_5030
+  mean          0.0145 0.0172
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_4724
+  mean          0.0297 0.0234
+  std. dev.     0.1697 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_4655
+  mean          0.0262 0.0245
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_4647
+  mean          0.0121 0.0117
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_4618
+  mean          0.0297 0.0298
+  std. dev.     0.1697   0.17
+  weight sum      2897   3426
+  precision          1      1
+
+word_4583
+  mean          0.0097 0.0114
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_4504
+  mean          0.0072 0.0047
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_4493
+  mean          0.0173 0.0143
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_4482
+  mean          0.0183 0.0169
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_4457
+  mean          0.0207 0.0172
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_4351
+  mean          0.0186 0.0137
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_4307
+  mean          0.0159 0.0114
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_4264
+  mean          0.0159 0.0134
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_4249
+  mean          0.0186 0.0111
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_4238
+  mean          0.0055 0.0032
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_4134
+  mean          0.0166 0.0152
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_4130
+  mean          0.0245 0.0198
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_4036
+  mean          0.0193  0.019
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_4026
+  mean           0.029 0.0333
+  std. dev.     0.1678 0.1794
+  weight sum      2897   3426
+  precision          1      1
+
+word_4021
+  mean          0.0086 0.0055
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_3974
+  mean          0.0314 0.0213
+  std. dev.     0.1744 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_3870
+  mean          0.0287 0.0169
+  std. dev.     0.1668 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_3812
+  mean          0.0321 0.0178
+  std. dev.     0.1763 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_3651
+  mean          0.0217 0.0207
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_3612
+  mean          0.0135 0.0163
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_3510
+  mean          0.0276 0.0269
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_3496
+  mean          0.0176 0.0166
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_3408
+  mean          0.0214 0.0161
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_3302
+  mean          0.0114  0.009
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_3295
+  mean          0.0207 0.0198
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_3280
+  mean            0.01 0.0117
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_3242
+  mean          0.0245 0.0304
+  std. dev.     0.1667 0.1716
+  weight sum      2897   3426
+  precision          1      1
+
+word_3237
+  mean          0.0152 0.0076
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_3217
+  mean          0.0142 0.0102
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_3197
+  mean          0.0138 0.0172
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_3176
+  mean          0.0197 0.0155
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_3135
+  mean          0.0083  0.009
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_3069
+  mean          0.0083 0.0143
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_3067
+  mean          0.0104 0.0096
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_3037
+  mean          0.0086 0.0149
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_3030
+  mean          0.0083 0.0073
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_3020
+  mean          0.0425 0.0362
+  std. dev.     0.2016 0.1868
+  weight sum      2897   3426
+  precision          1      1
+
+word_2983
+  mean          0.0211 0.0152
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_2978
+  mean          0.0376 0.0365
+  std. dev.     0.1903 0.1875
+  weight sum      2897   3426
+  precision          1      1
+
+word_2963
+  mean          0.0093 0.0108
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_2935
+  mean          0.0083 0.0117
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_2922
+  mean            0.03 0.0318
+  std. dev.     0.1707 0.1755
+  weight sum      2897   3426
+  precision          1      1
+
+word_2921
+  mean          0.0224 0.0196
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_2902
+  mean          0.0117 0.0175
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_2894
+  mean          0.0135 0.0161
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_2874
+  mean          0.0307 0.0181
+  std. dev.     0.1726 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_2841
+  mean           0.028 0.0377
+  std. dev.     0.1667 0.1904
+  weight sum      2897   3426
+  precision          1      1
+
+word_2810
+  mean          0.0173 0.0161
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_2763
+  mean          0.0121 0.0143
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_2738
+  mean          0.0249 0.0231
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_2696
+  mean          0.0179 0.0175
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_2657
+  mean          0.0062 0.0044
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_2636
+  mean          0.0104 0.0099
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_2632
+  mean          0.0072  0.012
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_2615
+  mean          0.0349 0.0292
+  std. dev.     0.1834 0.1683
+  weight sum      2897   3426
+  precision          1      1
+
+word_2610
+  mean          0.0466 0.0306
+  std. dev.     0.2108 0.1724
+  weight sum      2897   3426
+  precision          1      1
+
+word_2597
+  mean          0.0359 0.0365
+  std. dev.      0.186 0.1875
+  weight sum      2897   3426
+  precision          1      1
+
+word_2548
+  mean          0.0169 0.0152
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_2522
+  mean          0.0224 0.0277
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_2518
+  mean          0.0428 0.0342
+  std. dev.     0.2024 0.1816
+  weight sum      2897   3426
+  precision          1      1
+
+word_2467
+  mean          0.0304 0.0274
+  std. dev.     0.1716 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_2408
+  mean          0.0166 0.0239
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_2394
+  mean          0.0117 0.0108
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_2391
+  mean          0.0145 0.0155
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_2350
+  mean          0.0311 0.0292
+  std. dev.     0.1735 0.1683
+  weight sum      2897   3426
+  precision          1      1
+
+word_2339
+  mean          0.0162 0.0201
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_2336
+  mean          0.0242 0.0362
+  std. dev.     0.1667 0.1868
+  weight sum      2897   3426
+  precision          1      1
+
+word_2332
+  mean          0.0083 0.0158
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_2322
+  mean          0.0211 0.0198
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_2251
+  mean          0.0079 0.0163
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_2207
+  mean          0.0052 0.0041
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_2162
+  mean          0.0131  0.009
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_2151
+  mean          0.0107  0.019
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_2114
+  mean          0.0166 0.0152
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_2054
+  mean          0.0276 0.0269
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_2029
+  mean          0.0155 0.0085
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_1993
+  mean          0.0259 0.0289
+  std. dev.     0.1667 0.1675
+  weight sum      2897   3426
+  precision          1      1
+
+word_1992
+  mean          0.0107  0.014
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_1988
+  mean          0.0097 0.0149
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_1987
+  mean          0.0086 0.0155
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_1923
+  mean          0.0179 0.0271
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_1913
+  mean          0.0311 0.0423
+  std. dev.     0.1735 0.2013
+  weight sum      2897   3426
+  precision          1      1
+
+word_1867
+  mean          0.0062 0.0061
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_1850
+  mean          0.0435 0.0324
+  std. dev.      0.204 0.1771
+  weight sum      2897   3426
+  precision          1      1
+
+word_1788
+  mean          0.0035 0.0096
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_1760
+  mean          0.0321 0.0242
+  std. dev.     0.1763 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_1749
+  mean          0.0656 0.0663
+  std. dev.     0.2476 0.2487
+  weight sum      2897   3426
+  precision          1      1
+
+word_1747
+  mean          0.1139 0.1065
+  std. dev.     0.3177 0.3085
+  weight sum      2897   3426
+  precision          1      1
+
+word_1730
+  mean          0.0148 0.0286
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_1720
+  mean          0.0349 0.0447
+  std. dev.     0.1834 0.2066
+  weight sum      2897   3426
+  precision          1      1
+
+word_1713
+  mean          0.0166 0.0172
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_1712
+  mean          0.0442 0.0356
+  std. dev.     0.2055 0.1853
+  weight sum      2897   3426
+  precision          1      1
+
+word_1668
+  mean          0.0214 0.0161
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_1663
+  mean          0.0494 0.0333
+  std. dev.     0.2166 0.1794
+  weight sum      2897   3426
+  precision          1      1
+
+word_1617
+  mean          0.0373 0.0245
+  std. dev.     0.1894 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_1603
+  mean          0.0304 0.0225
+  std. dev.     0.1716 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_1583
+  mean          0.0207 0.0222
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_1531
+  mean          0.0445 0.0426
+  std. dev.     0.2063  0.202
+  weight sum      2897   3426
+  precision          1      1
+
+word_1526
+  mean          0.0142 0.0163
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_1512
+  mean          0.0908 0.0864
+  std. dev.     0.2873  0.281
+  weight sum      2897   3426
+  precision          1      1
+
+word_1496
+  mean          0.0083 0.0053
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_1495
+  mean          0.0442 0.0309
+  std. dev.     0.2055 0.1732
+  weight sum      2897   3426
+  precision          1      1
+
+word_1487
+  mean          0.0176 0.0161
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_1486
+  mean            0.01 0.0096
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_1451
+  mean          0.0221 0.0187
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_1449
+  mean          0.0114 0.0166
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_1437
+  mean          0.0421 0.0356
+  std. dev.     0.2008 0.1853
+  weight sum      2897   3426
+  precision          1      1
+
+word_1428
+  mean            0.02 0.0155
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_1386
+  mean          0.1018 0.0674
+  std. dev.     0.3024 0.2508
+  weight sum      2897   3426
+  precision          1      1
+
+word_1382
+  mean          0.1036 0.1057
+  std. dev.     0.3047 0.3074
+  weight sum      2897   3426
+  precision          1      1
+
+word_1372
+  mean          0.0183 0.0196
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_1355
+  mean          0.0055 0.0058
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_1346
+  mean          0.0048 0.0047
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_1321
+  mean          0.0186 0.0201
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_1305
+  mean          0.0635 0.0482
+  std. dev.     0.2439 0.2141
+  weight sum      2897   3426
+  precision          1      1
+
+word_1279
+  mean          0.0114 0.0099
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_1227
+  mean          0.0093  0.009
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_1221
+  mean          0.0097 0.0064
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_1214
+  mean          0.1053 0.0779
+  std. dev.     0.3069 0.2681
+  weight sum      2897   3426
+  precision          1      1
+
+word_1199
+  mean          0.0725  0.056
+  std. dev.     0.2593   0.23
+  weight sum      2897   3426
+  precision          1      1
+
+word_1184
+  mean          0.0224 0.0312
+  std. dev.     0.1667 0.1739
+  weight sum      2897   3426
+  precision          1      1
+
+word_1157
+  mean          0.0307 0.0312
+  std. dev.     0.1726 0.1739
+  weight sum      2897   3426
+  precision          1      1
+
+word_1156
+  mean          0.0186 0.0134
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_1155
+  mean          0.0186 0.0228
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_1152
+  mean          0.0255 0.0251
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_1127
+  mean          0.0283 0.0309
+  std. dev.     0.1667 0.1732
+  weight sum      2897   3426
+  precision          1      1
+
+word_1095
+  mean          0.0473 0.0429
+  std. dev.     0.2123 0.2026
+  weight sum      2897   3426
+  precision          1      1
+
+word_1052
+  mean          0.0245 0.0266
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_1037
+  mean          0.0331 0.0306
+  std. dev.      0.179 0.1724
+  weight sum      2897   3426
+  precision          1      1
+
+word_1032
+  mean          0.0235 0.0172
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_1028
+  mean          0.0421 0.0368
+  std. dev.     0.2008 0.1882
+  weight sum      2897   3426
+  precision          1      1
+
+word_1027
+  mean          0.0262 0.0231
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_1004
+  mean          0.0221 0.0152
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_1001
+  mean          0.0255 0.0175
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_994
+  mean          0.0231 0.0231
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_985
+  mean          0.0193 0.0207
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_966
+  mean          0.0273 0.0254
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_859
+  mean          0.0514 0.0447
+  std. dev.     0.2209 0.2066
+  weight sum      2897   3426
+  precision          1      1
+
+word_850
+  mean          0.0159  0.019
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_839
+  mean          0.0148 0.0146
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_835
+  mean          0.0266 0.0257
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_821
+  mean          0.0331 0.0257
+  std. dev.      0.179 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_820
+  mean          0.0421 0.0362
+  std. dev.     0.2008 0.1868
+  weight sum      2897   3426
+  precision          1      1
+
+word_818
+  mean          0.0155 0.0158
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_790
+  mean          0.0307 0.0257
+  std. dev.     0.1726 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_784
+  mean          0.0193 0.0248
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_783
+  mean          0.1522  0.136
+  std. dev.     0.3592 0.3428
+  weight sum      2897   3426
+  precision          1      1
+
+word_774
+  mean           0.028 0.0324
+  std. dev.     0.1667 0.1771
+  weight sum      2897   3426
+  precision          1      1
+
+word_763
+  mean          0.0221 0.0239
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_758
+  mean          0.0166 0.0169
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_740
+  mean          0.0228 0.0196
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_739
+  mean          0.0231 0.0149
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_736
+  mean          0.0442 0.0306
+  std. dev.     0.2055 0.1724
+  weight sum      2897   3426
+  precision          1      1
+
+word_727
+  mean          0.0252 0.0198
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_701
+  mean          0.0356 0.0385
+  std. dev.     0.1852 0.1925
+  weight sum      2897   3426
+  precision          1      1
+
+word_698
+  mean          0.0217 0.0178
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_682
+  mean          0.0052 0.0082
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_681
+  mean          0.0666 0.0616
+  std. dev.     0.2494 0.2404
+  weight sum      2897   3426
+  precision          1      1
+
+word_678
+  mean          0.0342 0.0277
+  std. dev.     0.1817 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_676
+  mean          0.0231 0.0403
+  std. dev.     0.1667 0.1966
+  weight sum      2897   3426
+  precision          1      1
+
+word_659
+  mean          0.0117 0.0111
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_658
+  mean          0.0176 0.0222
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_648
+  mean          0.0497 0.0447
+  std. dev.     0.2173 0.2066
+  weight sum      2897   3426
+  precision          1      1
+
+word_646
+  mean          0.0518 0.0543
+  std. dev.     0.2216 0.2266
+  weight sum      2897   3426
+  precision          1      1
+
+word_643
+  mean           0.087 0.0884
+  std. dev.     0.2818 0.2839
+  weight sum      2897   3426
+  precision          1      1
+
+word_633
+  mean          0.0114  0.007
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_625
+  mean          0.0197 0.0204
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_623
+  mean          0.0083 0.0146
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_622
+  mean           0.039 0.0496
+  std. dev.     0.1936 0.2172
+  weight sum      2897   3426
+  precision          1      1
+
+word_610
+  mean          0.0259 0.0204
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_587
+  mean          0.0121 0.0128
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_581
+  mean          0.0093 0.0234
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_559
+  mean          0.0418 0.0374
+  std. dev.     0.2001 0.1896
+  weight sum      2897   3426
+  precision          1      1
+
+word_546
+  mean           0.029 0.0251
+  std. dev.     0.1678 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_545
+  mean          0.0269 0.0245
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_536
+  mean          0.0559 0.0496
+  std. dev.     0.2298 0.2172
+  weight sum      2897   3426
+  precision          1      1
+
+word_533
+  mean          0.0262 0.0222
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_508
+  mean          0.0356 0.0438
+  std. dev.     0.1852 0.2046
+  weight sum      2897   3426
+  precision          1      1
+
+word_506
+  mean          0.0283 0.0222
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_504
+  mean          0.0283 0.0231
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_502
+  mean          0.0545 0.0587
+  std. dev.     0.2271  0.235
+  weight sum      2897   3426
+  precision          1      1
+
+word_474
+  mean           0.165 0.1538
+  std. dev.     0.3712 0.3608
+  weight sum      2897   3426
+  precision          1      1
+
+word_443
+  mean          0.0387 0.0347
+  std. dev.     0.1928 0.1831
+  weight sum      2897   3426
+  precision          1      1
+
+word_439
+  mean          0.0179 0.0117
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_438
+  mean          0.0683 0.0502
+  std. dev.     0.2523 0.2184
+  weight sum      2897   3426
+  precision          1      1
+
+word_421
+  mean          0.1194 0.0943
+  std. dev.     0.3243 0.2922
+  weight sum      2897   3426
+  precision          1      1
+
+word_416
+  mean          0.0231 0.0228
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_410
+  mean           0.019 0.0155
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_403
+  mean          0.0221 0.0216
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_385
+  mean          0.0345 0.0266
+  std. dev.     0.1826 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_368
+  mean           0.009 0.0073
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_362
+  mean          0.0404 0.0102
+  std. dev.     0.1969 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_345
+  mean          0.0179 0.0204
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_344
+  mean          0.0487 0.0487
+  std. dev.     0.2152 0.2153
+  weight sum      2897   3426
+  precision          1      1
+
+word_340
+  mean          0.0231 0.0213
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_337
+  mean           0.011 0.0108
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_332
+  mean          0.0497 0.0394
+  std. dev.     0.2173 0.1946
+  weight sum      2897   3426
+  precision          1      1
+
+word_325
+  mean          0.0487 0.0473
+  std. dev.     0.2152 0.2122
+  weight sum      2897   3426
+  precision          1      1
+
+word_313
+  mean           0.011 0.0155
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_310
+  mean          0.0494 0.0566
+  std. dev.     0.2166 0.2311
+  weight sum      2897   3426
+  precision          1      1
+
+word_284
+  mean           0.029 0.0216
+  std. dev.     0.1678 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_268
+  mean          0.0463 0.0178
+  std. dev.       0.21 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_260
+  mean          0.0217 0.0126
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_252
+  mean          0.0359 0.0336
+  std. dev.      0.186 0.1801
+  weight sum      2897   3426
+  precision          1      1
+
+word_249
+  mean          0.0255 0.0158
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_244
+  mean          0.0431 0.0394
+  std. dev.     0.2032 0.1946
+  weight sum      2897   3426
+  precision          1      1
+
+word_241
+  mean          0.1181 0.1013
+  std. dev.     0.3227 0.3017
+  weight sum      2897   3426
+  precision          1      1
+
+word_239
+  mean          0.0197 0.0163
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_238
+  mean          0.0753  0.061
+  std. dev.     0.2638 0.2393
+  weight sum      2897   3426
+  precision          1      1
+
+word_230
+  mean          0.0442 0.0333
+  std. dev.     0.2055 0.1794
+  weight sum      2897   3426
+  precision          1      1
+
+word_195
+  mean          0.0173 0.0201
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_194
+  mean          0.0842 0.0849
+  std. dev.     0.2777 0.2788
+  weight sum      2897   3426
+  precision          1      1
+
+word_176
+  mean          0.0911 0.0797
+  std. dev.     0.2878 0.2708
+  weight sum      2897   3426
+  precision          1      1
+
+word_174
+  mean          0.0176 0.0216
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_161
+  mean          0.0173 0.0163
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_154
+  mean          0.0255 0.0271
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_137
+  mean          0.0128 0.0242
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_134
+  mean          0.0245 0.0216
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_130
+  mean          0.0421 0.0377
+  std. dev.     0.2008 0.1904
+  weight sum      2897   3426
+  precision          1      1
+
+word_121
+  mean          0.0221 0.0213
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_101
+  mean          0.0179 0.0123
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_77
+  mean          0.1401 0.1238
+  std. dev.     0.3471 0.3293
+  weight sum      2897   3426
+  precision          1      1
+
+word_76
+  mean          0.0283 0.0277
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_70
+  mean          0.0262 0.0231
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_53
+  mean          0.0452 0.0406
+  std. dev.     0.2078 0.1973
+  weight sum      2897   3426
+  precision          1      1
+
+word_48
+  mean           0.068 0.0555
+  std. dev.     0.2517 0.2289
+  weight sum      2897   3426
+  precision          1      1
+
+word_46
+  mean          0.0504 0.0417
+  std. dev.     0.2188    0.2
+  weight sum      2897   3426
+  precision          1      1
+
+word_44
+  mean          0.0231 0.0289
+  std. dev.     0.1667 0.1675
+  weight sum      2897   3426
+  precision          1      1
+
+word_35
+  mean          0.0549  0.052
+  std. dev.     0.2278 0.2219
+  weight sum      2897   3426
+  precision          1      1
+
+word_30
+  mean          0.0283 0.0222
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+word_20
+  mean          0.0166 0.0166
+  std. dev.     0.1667 0.1667
+  weight sum      2897   3426
+  precision          1      1
+
+
+
+Time taken to build model: 0.13 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        3492               55.2269 %
+Incorrectly Classified Instances      2831               44.7731 %
+Kappa statistic                          0.0925
+Mean absolute error                      0.471 
+Root mean squared error                  0.5353
+Relative absolute error                 94.8693 %
+Root relative squared error            107.431  %
+Total Number of Instances             6323     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.471     0.379      0.512     0.471     0.491      0.568    n
+                 0.621     0.529      0.581     0.621     0.601      0.568    p
+Weighted Avg.    0.552     0.46       0.55      0.552     0.55       0.568
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1364 1533 |    a = n
+ 1298 2128 |    b = p
+

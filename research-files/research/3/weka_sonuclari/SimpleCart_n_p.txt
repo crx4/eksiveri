@@ -1,0 +1,61 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.SimpleCart -S 1 -M 2.0 -N 5 -C 1.0
+Relation:     words_n_p-weka.filters.unsupervised.attribute.Remove-R1-2
+Instances:    3881
+Attributes:   181
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+CART Decision Tree
+
+word_362 < 0.5
+|  word_5463 < 0.5
+|  |  word_268 < 0.5
+|  |  |  word_581 < 0.5
+|  |  |  |  word_676 < 0.5
+|  |  |  |  |  word_3237 < 0.5
+|  |  |  |  |  |  word_137 < 0.5
+|  |  |  |  |  |  |  word_1386 < 0.5: p(1557.0/1264.0)
+|  |  |  |  |  |  |  word_1386 >= 0.5: n(165.0/138.0)
+|  |  |  |  |  |  word_137 >= 0.5: p(71.0/30.0)
+|  |  |  |  |  word_3237 >= 0.5: n(41.0/21.0)
+|  |  |  |  word_676 >= 0.5: p(112.0/48.0)
+|  |  |  word_581 >= 0.5: p(73.0/23.0)
+|  |  word_268 >= 0.5: n(70.0/37.0)
+|  word_5463 >= 0.5: n(75.0/23.0)
+word_362 >= 0.5: n(103.0/30.0)
+
+Number of Leaf Nodes: 9
+
+Size of the Tree: 17
+
+Time taken to build model: 9.95 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        2174               56.0165 %
+Incorrectly Classified Instances      1707               43.9835 %
+Kappa statistic                          0.0781
+Mean absolute error                      0.4844
+Root mean squared error                  0.4948
+Relative absolute error                 97.2625 %
+Root relative squared error             99.1548 %
+Total Number of Instances             3881     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.174     0.099      0.608     0.174     0.27       0.545    n
+                 0.901     0.826      0.553     0.901     0.685      0.545    p
+Weighted Avg.    0.56      0.485      0.579     0.56      0.491      0.545
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  316 1503 |    a = n
+  204 1858 |    b = p
+

@@ -1,0 +1,69 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.SimpleCart -S 1 -M 2.0 -N 5 -C 1.0
+Relation:     words_n_p-weka.filters.unsupervised.attribute.Remove-R1-2
+Instances:    4211
+Attributes:   261
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+CART Decision Tree
+
+word_5463 < 0.5
+|  word_362 < 0.5
+|  |  word_581 < 0.5
+|  |  |  word_268 < 0.5
+|  |  |  |  word_676 < 0.5
+|  |  |  |  |  word_137 < 0.5
+|  |  |  |  |  |  word_1386 < 0.5
+|  |  |  |  |  |  |  word_2522 < 0.5
+|  |  |  |  |  |  |  |  word_3870 < 0.5
+|  |  |  |  |  |  |  |  |  word_260 < 0.5
+|  |  |  |  |  |  |  |  |  |  word_1788 < 0.5
+|  |  |  |  |  |  |  |  |  |  |  word_5684 < 0.5: p(1599.0/1275.0)
+|  |  |  |  |  |  |  |  |  |  |  word_5684 >= 0.5: n(24.0/12.0)
+|  |  |  |  |  |  |  |  |  |  word_1788 >= 0.5: p(23.0/4.0)
+|  |  |  |  |  |  |  |  |  word_260 >= 0.5: n(45.0/26.0)
+|  |  |  |  |  |  |  |  word_3870 >= 0.5: n(46.0/26.0)
+|  |  |  |  |  |  |  word_2522 >= 0.5: p(67.0/28.0)
+|  |  |  |  |  |  word_1386 >= 0.5: n(176.0/145.0)
+|  |  |  |  |  word_137 >= 0.5: p(73.0/30.0)
+|  |  |  |  word_676 >= 0.5: p(114.0/50.0)
+|  |  |  word_268 >= 0.5: n(72.0/38.0)
+|  |  word_581 >= 0.5: p(77.0/23.0)
+|  word_362 >= 0.5: n(75.0/22.0)
+word_5463 >= 0.5: n(109.0/32.0)
+
+Number of Leaf Nodes: 13
+
+Size of the Tree: 25
+
+Time taken to build model: 24.09 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        2384               56.6136 %
+Incorrectly Classified Instances      1827               43.3864 %
+Kappa statistic                          0.0811
+Mean absolute error                      0.485 
+Root mean squared error                  0.494 
+Relative absolute error                 97.4904 %
+Root relative squared error             99.0462 %
+Total Number of Instances             4211     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.147     0.07       0.646     0.147     0.239      0.54     n
+                 0.93      0.853      0.557     0.93      0.697      0.54     p
+Weighted Avg.    0.566     0.489      0.598     0.566     0.484      0.54 
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  287 1670 |    a = n
+  157 2097 |    b = p
+

@@ -1,0 +1,315 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -C 250007 -E 1.0"
+Relation:     words_h_u-weka.filters.unsupervised.attribute.Remove-R1-2
+Instances:    3426
+Attributes:   261
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: h, u
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.7759 * (normalized) word_22032
+ +       0.3648 * (normalized) word_15189
+ +       0.7178 * (normalized) word_12681
+ +      -0.6925 * (normalized) word_11011
+ +       0.7236 * (normalized) word_10967
+ +       0.1878 * (normalized) word_10403
+ +      -0.1758 * (normalized) word_9969
+ +      -0.4724 * (normalized) word_9921
+ +       0.3076 * (normalized) word_9737
+ +      -0.0404 * (normalized) word_8986
+ +       0.0076 * (normalized) word_7502
+ +      -0.3851 * (normalized) word_7467
+ +      -0.3452 * (normalized) word_7049
+ +      -0.1094 * (normalized) word_6801
+ +      -0.1115 * (normalized) word_6386
+ +       0.8022 * (normalized) word_6201
+ +      -0.0496 * (normalized) word_5905
+ +       0.4501 * (normalized) word_5765
+ +      -0.7211 * (normalized) word_5684
+ +      -0.6416 * (normalized) word_5617
+ +      -0.0068 * (normalized) word_5587
+ +      -0.1319 * (normalized) word_5463
+ +       0.4627 * (normalized) word_5404
+ +      -0.7314 * (normalized) word_5065
+ +      -0.371  * (normalized) word_5030
+ +      -0.3904 * (normalized) word_4724
+ +      -0.3844 * (normalized) word_4655
+ +      -0.0193 * (normalized) word_4647
+ +      -0.1105 * (normalized) word_4618
+ +       0.0521 * (normalized) word_4583
+ +       0.3555 * (normalized) word_4504
+ +       1.2959 * (normalized) word_4493
+ +      -0.4049 * (normalized) word_4482
+ +      -0.5314 * (normalized) word_4457
+ +      -0.2595 * (normalized) word_4351
+ +      -0.5083 * (normalized) word_4307
+ +      -1.128  * (normalized) word_4264
+ +       0.5263 * (normalized) word_4249
+ +       0.0008 * (normalized) word_4238
+ +       0.1715 * (normalized) word_4134
+ +       0.1033 * (normalized) word_4130
+ +       0.6775 * (normalized) word_4036
+ +       0.2914 * (normalized) word_4026
+ +       0.5374 * (normalized) word_4021
+ +       0.4779 * (normalized) word_3974
+ +      -0.0527 * (normalized) word_3870
+ +       0.193  * (normalized) word_3812
+ +       0.4926 * (normalized) word_3651
+ +       0.036  * (normalized) word_3612
+ +      -0.1484 * (normalized) word_3510
+ +      -0.8542 * (normalized) word_3496
+ +       0.1084 * (normalized) word_3408
+ +       0.713  * (normalized) word_3302
+ +       0.0717 * (normalized) word_3295
+ +       0.5908 * (normalized) word_3280
+ +      -1.1484 * (normalized) word_3242
+ +       0.7599 * (normalized) word_3237
+ +       1.1552 * (normalized) word_3217
+ +       0.7545 * (normalized) word_3197
+ +       0.5373 * (normalized) word_3176
+ +      -0.0907 * (normalized) word_3135
+ +       0.6635 * (normalized) word_3069
+ +       0.9739 * (normalized) word_3067
+ +       0.4105 * (normalized) word_3037
+ +       0.2381 * (normalized) word_3030
+ +       0.1952 * (normalized) word_3020
+ +      -0.1336 * (normalized) word_2983
+ +       0.8317 * (normalized) word_2978
+ +      -0.1708 * (normalized) word_2963
+ +       1.3583 * (normalized) word_2935
+ +       0.4208 * (normalized) word_2922
+ +       0.3565 * (normalized) word_2921
+ +       0.9385 * (normalized) word_2902
+ +      -0.5668 * (normalized) word_2894
+ +       0.0134 * (normalized) word_2874
+ +       0.8352 * (normalized) word_2841
+ +       0.3869 * (normalized) word_2810
+ +      -0.2555 * (normalized) word_2763
+ +      -0.1055 * (normalized) word_2738
+ +      -0.29   * (normalized) word_2696
+ +      -0.4423 * (normalized) word_2657
+ +      -0.2046 * (normalized) word_2636
+ +      -0.6371 * (normalized) word_2632
+ +      -0.6288 * (normalized) word_2615
+ +       0.5812 * (normalized) word_2610
+ +      -0.4378 * (normalized) word_2597
+ +       0.3713 * (normalized) word_2548
+ +       0.5331 * (normalized) word_2522
+ +      -0.0788 * (normalized) word_2518
+ +      -0.6195 * (normalized) word_2467
+ +       0.2531 * (normalized) word_2408
+ +       0.2823 * (normalized) word_2394
+ +       0.6283 * (normalized) word_2391
+ +       0.2121 * (normalized) word_2350
+ +       0.2007 * (normalized) word_2339
+ +       0.8263 * (normalized) word_2336
+ +      -0.0466 * (normalized) word_2332
+ +      -0.2186 * (normalized) word_2322
+ +       0.3432 * (normalized) word_2251
+ +      -0.2887 * (normalized) word_2207
+ +      -0.0003 * (normalized) word_2162
+ +      -0.0143 * (normalized) word_2151
+ +       0.0127 * (normalized) word_2114
+ +      -0.3581 * (normalized) word_2054
+ +      -1.2248 * (normalized) word_2029
+ +       0.6358 * (normalized) word_1993
+ +       0.0822 * (normalized) word_1992
+ +       0.4642 * (normalized) word_1988
+ +      -0.266  * (normalized) word_1987
+ +       0.2005 * (normalized) word_1923
+ +       0.3682 * (normalized) word_1913
+ +       0.5129 * (normalized) word_1867
+ +      -0.6404 * (normalized) word_1850
+ +       0.4565 * (normalized) word_1788
+ +       0.0497 * (normalized) word_1760
+ +      -0.0301 * (normalized) word_1749
+ +       0.0053 * (normalized) word_1747
+ +       1.159  * (normalized) word_1730
+ +       0.9713 * (normalized) word_1720
+ +       0.381  * (normalized) word_1713
+ +      -0.3704 * (normalized) word_1712
+ +      -0.4982 * (normalized) word_1668
+ +      -0.1767 * (normalized) word_1663
+ +       0.137  * (normalized) word_1617
+ +       0.105  * (normalized) word_1603
+ +      -0.2353 * (normalized) word_1583
+ +       0.0353 * (normalized) word_1531
+ +      -0.6858 * (normalized) word_1526
+ +      -0.0201 * (normalized) word_1512
+ +      -0.7304 * (normalized) word_1496
+ +      -0.6406 * (normalized) word_1495
+ +       0.605  * (normalized) word_1487
+ +      -0.2656 * (normalized) word_1486
+ +      -0.3986 * (normalized) word_1451
+ +       0.3025 * (normalized) word_1449
+ +      -0.3766 * (normalized) word_1437
+ +       0.2771 * (normalized) word_1428
+ +      -0.5878 * (normalized) word_1386
+ +      -0.5886 * (normalized) word_1382
+ +       0.1019 * (normalized) word_1372
+ +       0.7442 * (normalized) word_1355
+ +      -0.3017 * (normalized) word_1346
+ +      -0.1733 * (normalized) word_1321
+ +      -0.0599 * (normalized) word_1305
+ +      -0.1506 * (normalized) word_1279
+ +      -0.2461 * (normalized) word_1227
+ +       0.6298 * (normalized) word_1221
+ +      -0.2646 * (normalized) word_1214
+ +       0.2044 * (normalized) word_1199
+ +       0.1105 * (normalized) word_1184
+ +      -0.1436 * (normalized) word_1157
+ +       0.1817 * (normalized) word_1156
+ +       0.4142 * (normalized) word_1155
+ +      -0.5914 * (normalized) word_1152
+ +      -0.5235 * (normalized) word_1127
+ +      -0.298  * (normalized) word_1095
+ +       0.1258 * (normalized) word_1052
+ +      -0.0773 * (normalized) word_1037
+ +      -0.5254 * (normalized) word_1032
+ +      -0.0329 * (normalized) word_1028
+ +      -0.1267 * (normalized) word_1027
+ +       0.9636 * (normalized) word_1004
+ +      -0.4788 * (normalized) word_1001
+ +      -0.6149 * (normalized) word_994
+ +      -0.5771 * (normalized) word_985
+ +      -0.2316 * (normalized) word_966
+ +      -0.2488 * (normalized) word_859
+ +       0.2776 * (normalized) word_850
+ +      -0.5998 * (normalized) word_839
+ +      -0.6575 * (normalized) word_835
+ +      -0.5356 * (normalized) word_821
+ +      -0.1065 * (normalized) word_820
+ +       0.9452 * (normalized) word_818
+ +       0.3229 * (normalized) word_790
+ +      -0.427  * (normalized) word_784
+ +       0.1889 * (normalized) word_783
+ +      -0.2029 * (normalized) word_774
+ +      -0.051  * (normalized) word_763
+ +       0.411  * (normalized) word_758
+ +       0.7886 * (normalized) word_740
+ +       0.0814 * (normalized) word_739
+ +      -0.004  * (normalized) word_736
+ +       0.8656 * (normalized) word_727
+ +       0.5707 * (normalized) word_701
+ +       0.6413 * (normalized) word_698
+ +       0.5183 * (normalized) word_682
+ +      -0.0206 * (normalized) word_681
+ +      -0.2338 * (normalized) word_678
+ +      -0.3178 * (normalized) word_676
+ +      -0.3293 * (normalized) word_659
+ +      -0.4976 * (normalized) word_658
+ +      -0.0532 * (normalized) word_648
+ +       0.4501 * (normalized) word_646
+ +       0.4054 * (normalized) word_643
+ +       0.6679 * (normalized) word_633
+ +       0.4212 * (normalized) word_625
+ +       1.5011 * (normalized) word_623
+ +      -0.042  * (normalized) word_622
+ +      -0.0016 * (normalized) word_610
+ +       0.6875 * (normalized) word_587
+ +       0.5961 * (normalized) word_581
+ +       0.8367 * (normalized) word_559
+ +       0.2777 * (normalized) word_546
+ +      -0.4646 * (normalized) word_545
+ +       0.7628 * (normalized) word_536
+ +       0.4154 * (normalized) word_533
+ +       0.7664 * (normalized) word_508
+ +       0.2197 * (normalized) word_506
+ +       0.0808 * (normalized) word_504
+ +       0.0978 * (normalized) word_502
+ +       0.317  * (normalized) word_474
+ +      -0.1763 * (normalized) word_443
+ +       0.1059 * (normalized) word_439
+ +      -0.1689 * (normalized) word_438
+ +       0.0349 * (normalized) word_421
+ +      -0.2918 * (normalized) word_416
+ +       0.2707 * (normalized) word_410
+ +       0.073  * (normalized) word_403
+ +       0.0256 * (normalized) word_385
+ +       0.2044 * (normalized) word_368
+ +      -0.6408 * (normalized) word_362
+ +       0.1011 * (normalized) word_345
+ +      -0.1529 * (normalized) word_344
+ +      -0.8425 * (normalized) word_340
+ +       1.1549 * (normalized) word_337
+ +      -0.164  * (normalized) word_332
+ +       0.6271 * (normalized) word_325
+ +       0.317  * (normalized) word_313
+ +       0.5852 * (normalized) word_310
+ +       0.0446 * (normalized) word_284
+ +       0.0962 * (normalized) word_268
+ +       0.2261 * (normalized) word_260
+ +       0.0443 * (normalized) word_252
+ +      -0.5857 * (normalized) word_249
+ +       0.0558 * (normalized) word_244
+ +      -0.1507 * (normalized) word_241
+ +      -0.065  * (normalized) word_239
+ +       0.1248 * (normalized) word_238
+ +      -0.4475 * (normalized) word_230
+ +      -0.1036 * (normalized) word_195
+ +       0.064  * (normalized) word_194
+ +      -0.6117 * (normalized) word_176
+ +       0.4497 * (normalized) word_174
+ +       0.7694 * (normalized) word_161
+ +       0.2908 * (normalized) word_154
+ +       0.6931 * (normalized) word_137
+ +       0.0066 * (normalized) word_134
+ +       0.0573 * (normalized) word_130
+ +       0.0369 * (normalized) word_121
+ +      -0.6652 * (normalized) word_101
+ +      -0.0525 * (normalized) word_77
+ +       0.1172 * (normalized) word_76
+ +       0.0215 * (normalized) word_70
+ +      -0.5896 * (normalized) word_53
+ +       0.3061 * (normalized) word_48
+ +      -0.2173 * (normalized) word_46
+ +      -0.4684 * (normalized) word_44
+ +       0.4881 * (normalized) word_35
+ +      -0.4904 * (normalized) word_30
+ +       0.1637 * (normalized) word_20
+ -       0.3588
+
+Number of kernel evaluations: 26211890 (67.891% cached)
+
+
+
+Time taken to build model: 14.67 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        2100               61.296  %
+Incorrectly Classified Instances      1326               38.704  %
+Kappa statistic                          0.2235
+Mean absolute error                      0.387 
+Root mean squared error                  0.6221
+Relative absolute error                 77.4334 %
+Root relative squared error            124.4454 %
+Total Number of Instances             3426     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.695     0.472      0.604     0.695     0.646      0.611    h
+                 0.528     0.305      0.625     0.528     0.573      0.611    u
+Weighted Avg.    0.613     0.39       0.615     0.613     0.61       0.611
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1212  532 |    a = h
+  794  888 |    b = u
+

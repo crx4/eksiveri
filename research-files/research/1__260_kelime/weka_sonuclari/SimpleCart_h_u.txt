@@ -1,0 +1,93 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.SimpleCart -S 1 -M 2.0 -N 5 -C 1.0
+Relation:     words_h_u-weka.filters.unsupervised.attribute.Remove-R1-2
+Instances:    3426
+Attributes:   261
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+CART Decision Tree
+
+word_2841 < 0.5
+|  word_3242 < 0.5
+|  |  word_2902 < 0.5
+|  |  |  word_1730 < 0.5
+|  |  |  |  word_2336 < 0.5
+|  |  |  |  |  word_137 < 0.5
+|  |  |  |  |  |  word_2978 < 0.5
+|  |  |  |  |  |  |  word_1720 < 0.5
+|  |  |  |  |  |  |  |  word_176 < 0.5
+|  |  |  |  |  |  |  |  |  word_623 < 0.5
+|  |  |  |  |  |  |  |  |  |  word_2935 < 0.5
+|  |  |  |  |  |  |  |  |  |  |  word_536 < 0.5
+|  |  |  |  |  |  |  |  |  |  |  |  word_3069 < 0.5
+|  |  |  |  |  |  |  |  |  |  |  |  |  word_2636 < 0.5
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  word_3020 < 0.5
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  word_1004 < 0.5
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  word_508 < 0.5
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  word_161 < 0.5
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  word_1382 < 0.5
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  word_1993 < 0.5
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  word_4493 < 0.5
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  word_1214 < 0.5
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  word_3974 < 0.5: h(1029.0/782.0)
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  word_3974 >= 0.5: u(19.0/7.0)
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  word_1214 >= 0.5: h(71.0/30.0)
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  word_4493 >= 0.5: u(15.0/5.0)
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  word_1993 >= 0.5: u(30.0/12.0)
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  word_1382 >= 0.5: h(134.0/65.0)
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  word_161 >= 0.5: u(13.0/3.0)
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  word_508 >= 0.5: u(36.0/21.0)
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  word_1004 >= 0.5: u(18.0/6.0)
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  word_3020 >= 0.5: u(40.0/22.0)
+|  |  |  |  |  |  |  |  |  |  |  |  |  word_2636 >= 0.5: h(20.0/2.0)
+|  |  |  |  |  |  |  |  |  |  |  |  word_3069 >= 0.5: u(13.0/1.0)
+|  |  |  |  |  |  |  |  |  |  |  word_536 >= 0.5: u(58.0/33.0)
+|  |  |  |  |  |  |  |  |  |  word_2935 >= 0.5: u(15.0/1.0)
+|  |  |  |  |  |  |  |  |  word_623 >= 0.5: u(21.0/3.0)
+|  |  |  |  |  |  |  |  word_176 >= 0.5: h(129.0/61.0)
+|  |  |  |  |  |  |  word_1720 >= 0.5: u(74.0/43.0)
+|  |  |  |  |  |  word_2978 >= 0.5: u(55.0/23.0)
+|  |  |  |  |  word_137 >= 0.5: u(42.0/15.0)
+|  |  |  |  word_2336 >= 0.5
+|  |  |  |  |  word_1663 < 0.5: u(66.0/19.0)
+|  |  |  |  |  word_1663 >= 0.5: h(8.0/2.0)
+|  |  |  word_1730 >= 0.5: u(65.0/22.0)
+|  |  word_2902 >= 0.5: u(45.0/6.0)
+|  word_3242 >= 0.5: h(80.0/17.0)
+word_2841 >= 0.5: u(98.0/31.0)
+
+Number of Leaf Nodes: 25
+
+Size of the Tree: 49
+
+Time taken to build model: 22.85 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        2051               59.8657 %
+Incorrectly Classified Instances      1375               40.1343 %
+Kappa statistic                          0.1939
+Mean absolute error                      0.455 
+Root mean squared error                  0.4974
+Relative absolute error                 91.0378 %
+Root relative squared error             99.4937 %
+Total Number of Instances             3426     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.711     0.518      0.587     0.711     0.643      0.618    h
+                 0.482     0.289      0.617     0.482     0.541      0.618    u
+Weighted Avg.    0.599     0.405      0.602     0.599     0.593      0.618
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1240  504 |    a = h
+  871  811 |    b = u
+
